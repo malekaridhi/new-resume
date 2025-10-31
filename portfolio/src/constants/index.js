@@ -28,13 +28,18 @@ const words = [
     { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+// const counterItems = [
+//     { value: 3, suffix: "+", label: "Years of Experience" },
+//     { value: 3, suffix: "+", label: "Satisfied Clients" },
+//     { value: 20, suffix: "+", label: "Completed Projects" },
+//     { value: 90, suffix: "%", label: "Client Retention Rate" },
+// ];
 const counterItems = [
-    { value: 3, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
-
+    { value: 3, suffix: "+", label: "Years Building Digital Products" },
+    { value: 10, suffix: "+", label: "Real-World Applications Shipped" },
+    { value: 5, suffix: "+", label: "Tech Ecosystems Worked In" },
+    { value: 90, suffix: "%", label: "Feature Delivery Efficiency" },
+]
 const logoIconsList = [
     {
         imgPath: "/images/logos/company-logo-1.png",

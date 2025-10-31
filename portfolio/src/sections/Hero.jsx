@@ -1,10 +1,32 @@
-import React from "react";
+import { useRef } from "react";
 import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
 import HeroExperience from "../components/heroModels/HeroExperience.jsx";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import AnimatedCounter from "../components/heroModels/AnimatedCounter.jsx";
+gsap.registerPlugin(useGSAP);
 function Hero() {
+  const container = useRef();
+  const { contextSafe } = useGSAP({ scope: container });
+  useGSAP(
+    () => {
+      // gsap code here...
+      gsap.fromTo(
+        ".hero-text h1",
+        { y: 50, opacity: 0 },
+        { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+      ); // <-- automatically reverted
+    },
+    { scope: container }
+  );
+  //  gsap.fromTo(
+  //   ".hero-text h1",
+  //   { y: 50, opacity: 0 },
+  //   { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+  // );
   return (
-    <section id="hero" className="relative overflow-hidden">
+    <section ref={container} id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
       </div>
@@ -55,6 +77,7 @@ function Hero() {
           </div>
         </figure>
       </div>
+      <AnimatedCounter />
     </section>
   );
 }
