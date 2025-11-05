@@ -89,52 +89,56 @@ const abilities = [
 ];
 const techStackImgs = [
     {
-        name: "React Developer",
-        imgPath: "/images/logos/react.png",
+        name: "Postgres",
+        imgPath: "/images/logos/postgre.png",
     },
     // {
     //     name: "Python Developer",
     //     imgPath: "/images/logos/python.svg",
     // },
     {
-        name: "Backend Developer",
-        imgPath: "/images/logos/node.png",
+        name: "Next js",
+        imgPath: "/images/logos/next.png",
     },
     {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
+        name: "vue js",
+        imgPath: "/images/logos/vuejs.png",
     },
     {
-        name: "Project Manager",
-        imgPath: "/images/logos/git.svg",
+        name: "PHP",
+        imgPath: "/images/logos/php.png",
+    },
+    {
+        name: "Wordpress",
+        imgPath: "/images/logos/wordpress.png",
     },
 ];
 
 const techStackIcons = [
     {
-        name: "React Developer",
+        name: "React ",
         modelPath: "/models/react_logo-transformed.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
-    // {
-    //     name: "Python Developer",
-    //     modelPath: "/models/python-transformed.glb",
-    //     scale: 0.8,
-    //     rotation: [0, 0, 0],
-    // },
     {
-        name: "Backend Developer",
+        name: "Python ",
+        modelPath: "/models/python-transformed.glb",
+        scale: 0.8,
+        rotation: [0, 0, 0],
+    },
+    {
+        name: "Nodejs ",
         modelPath: "/models/node-transformed.glb",
         scale: 5,
         rotation: [0, -Math.PI / 2, 0],
     },
-    {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
-    },
+    // {
+    //     name: "PHP",
+    //     modelPath: "/models/php_logo.glb",
+    //     scale: 0.01,
+    //     rotation: [0, -Math.PI / 2, 0],
+    // },
     {
         name: "Project Manager",
         modelPath: "/models/git-svg-transformed.glb",
@@ -321,6 +325,41 @@ const socialImgs = [
         imgPath: "/images/linkedin.png",
     },
 ];
+const stackIcons = [
+    // Frontend
+    { name: "JavaScript", imgPath: "/images/logos/js.png" },
+    { name: "TypeScript", imgPath: "/images/logos/typescript.png" },
+    { name: "React.js", imgPath: "/images/logos/react.png" },
+    { name: "Redux", imgPath: "/images/logos/redux.svg" },
+    { name: "Next.js", imgPath: "/images/logos/next-js-seeklogo.svg" },
+    { name: "Angular", imgPath: "/images/logos/angular.svg" },
+    { name: "Vue.js", imgPath: "/images/logos/vuejs.png" },
+    { name: "React Native", imgPath: "/images/logos/react.png" },
+    // { name: "HTML5", imgPath: "/images/logos/html5.svg" },
+    // { name: "CSS3", imgPath: "/images/logos/css3.svg" },
+    { name: "Bootstrap", imgPath: "/images/logos/bootstrap.svg" },
+    { name: "Tailwind CSS", imgPath: "/images/logos/tailwind-css.svg" },
+    { name: "WordPress", imgPath: "/images/logos/wordpress.png" },
+    { name: "Elementor", imgPath: "/images/logos/elem.png" },
+
+    // Backend
+    { name: "Node.js", imgPath: "/images/logos/node.png" },
+    { name: "Express.js", imgPath: "/images/logos/expressjs.svg" },
+    { name: "Python", imgPath: "/images/logos/python.svg" },
+    { name: "FastAPI", imgPath: "/images/logos/Fastapi.svg" },
+    { name: "PHP", imgPath: "/images/logos/php.png" },
+
+    // Databases
+    { name: "PostgreSQL", imgPath: "/images/logos/postgre.png" },
+    { name: "MongoDB", imgPath: "/images/logos/mongodb.png" },
+    { name: "Firebase", imgPath: "/images/logos/firebase.svg" },
+
+    // Tools & DevOps
+    { name: "Git", imgPath: "/images/logos/git.svg" },
+    { name: "Google Apps Script", imgPath: "/images/logos/search.png" },
+
+];
+
 
 export {
     words,
@@ -334,4 +373,5 @@ export {
     techStackIcons,
     techStackImgs,
     navLinks,
+    stackIcons
 };
