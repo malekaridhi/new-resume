@@ -12,7 +12,7 @@ const navLinks = [
         link: "#skills",
     },
     {
-        name: "tech",
+        name: "Tech",
         link: "#tech",
     },
 ];
@@ -306,7 +306,7 @@ const testimonials = [
 const socialImgs = [
     {
         name: "insta",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/malekaridhii/",
         imgPath: "/images/insta.png",
     },
     {
@@ -315,13 +315,13 @@ const socialImgs = [
         imgPath: "/images/fb.png",
     },
     {
-        name: "x",
-        url: "https://www.x.com/",
-        imgPath: "/images/x.png",
+        name: "Github",
+        url: "https://github.com/malekaridhi",
+        imgPath: "/images/github.png",
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/in/malek-aridhi-a011341a0/",
         imgPath: "/images/linkedin.png",
     },
 ];

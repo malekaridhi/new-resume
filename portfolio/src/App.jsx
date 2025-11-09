@@ -8,6 +8,7 @@ import ExperienceSection from "./sections/ExperienceSection";
 import Teckstaks from "./sections/Teckstaks";
 import Testamonials from "./sections/Testamonials";
 import Contacts from "./sections/Contacts";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -15,12 +16,13 @@ const App = () => {
       <Navbar />
       <Hero />
       <ShowcaseSection />
-      <LogoSection />
+      {/* <LogoSection /> */}
       <FeatureCards />
       <ExperienceSection />
       <Teckstaks />
       <Testamonials />
       <Contacts />
+      <Footer />
     </>
   );
 };
